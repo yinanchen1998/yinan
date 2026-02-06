@@ -103,10 +103,10 @@ export const YearComparisonChart: React.FC<YearComparisonChartProps> = ({
     const dataMap: Record<number, {
       day: number;
       lunarDate: string;
-      y2023?: number;
-      y2024?: number;
-      y2025?: number;
-      y2026?: number;
+      y2023?: number | null;
+      y2024?: number | null;
+      y2025?: number | null;
+      y2026?: number | null;
     }> = {};
 
     // 处理2023年数据

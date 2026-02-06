@@ -30,11 +30,11 @@ interface ChartDataPoint {
   date: string;
   lunarDate: string;
   chunyunDay: number;
-  value: number;
-  railway?: number;
-  highway?: number;
-  waterway?: number;
-  aviation?: number;
+  value: number | null;
+  railway?: number | null;
+  highway?: number | null;
+  waterway?: number | null;
+  aviation?: number | null;
   total?: number;
 }
 

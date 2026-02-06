@@ -12,24 +12,24 @@ export interface ChunyunDailyData {
   totalFlowQoQ?: number;  // 环比增长率（%）
   
   // 铁路
-  railway: number;        // 铁路客运量（万人次）
+  railway: number | null;        // 铁路客运量（万人次）
   railwayYoY?: number;    // 同比增长率（%）
   railwayQoQ?: number;    // 环比增长率（%）
   
   // 公路
-  highway: number;        // 公路人员流动量（万人次）
+  highway: number | null;        // 公路人员流动量（万人次）
   highwayYoY?: number;    // 同比增长率（%）
   highwayQoQ?: number;    // 环比增长率（%）
   highwayPrivate?: number;  // 高速公路及普通国省道非营业性小客车人员出行量
   highwayCommercial?: number; // 公路营业性客运量
   
   // 水路
-  waterway: number;       // 水路客运量（万人次）
+  waterway: number | null;       // 水路客运量（万人次）
   waterwayYoY?: number;   // 同比增长率（%）
   waterwayQoQ?: number;   // 环比增长率（%）
   
   // 民航
-  aviation: number;       // 民航客运量（万人次）
+  aviation: number | null;       // 民航客运量（万人次）
   aviationYoY?: number;   // 同比增长率（%）
   aviationQoQ?: number;   // 环比增长率（%）
   

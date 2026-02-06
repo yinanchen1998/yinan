@@ -13,7 +13,7 @@ interface StatCardsProps {
 
 interface StatItem {
   title: string;
-  value: number;
+  value: number | null;
   unit: string;
   icon: React.ReactNode;
   color: string;
@@ -88,7 +88,8 @@ export const StatCards: React.FC<StatCardsProps> = ({ data }) => {
     ];
   }, [data]);
 
-  const formatNumber = (num: number): string => {
+  const formatNumber = (num: number | null | undefined): string => {
+    if (num === undefined || num === null) return '-';
     if (num >= 10000) {
       return `${(num / 10000).toFixed(2)}亿`;
     }
