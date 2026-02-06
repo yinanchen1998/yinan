@@ -1601,6 +1601,19 @@ export const data2025: ChunyunDailyData[] = [
 // 2026年春运数据 - 来自交通运输部官方发布
 export const data2026: ChunyunDailyData[] = [
   {
+    date: '2026-02-05',
+    lunarDate: '腊月十八',
+    chunyunDay: 4,
+    totalFlow: 19629.1,
+    railway: 1175.9,
+    highway: null,
+    waterway: 71.8,
+    aviation: 234.5,
+    sourceUrl: 'https://finance.sina.com.cn/wm/2026-02-06/doc-inhkwnkf4985990.shtml',
+    sourceTitle: '春运2026丨2月5日，全社会跨区域人员流动量完成19629.1万人次',
+  },
+
+  {
     date: '2026-02-02',
     lunarDate: '腊月十五',
     chunyunDay: 1,
