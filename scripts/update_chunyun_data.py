@@ -191,6 +191,11 @@ def search_via_engine(date_obj):
                         continue
                     checked_urls.add(href)
                     
+                    # 过滤掉包含"预计"的链接（预测数据而非实际数据）
+                    if '预计' in text:
+                        print(f"   ✗ 跳过预测链接: {text[:40]}...")
+                        continue
+                    
                     print(f"   检查: {text[:40]}... | {href[:60]}")
                     
                     # 优先访问交通运输部官网链接
@@ -295,6 +300,11 @@ def fetch_sina_finance(date_obj):
                 for result in results[:10]:
                     href = result.get('href', '')
                     text = result.get_text(strip=True)
+                    
+                    # 过滤掉包含"预计"的链接（预测数据而非实际数据）
+                    if '预计' in text:
+                        print(f"   ✗ 跳过预测链接: {text[:40]}...")
+                        continue
                     
                     # 优先新浪财经自己的新闻
                     if 'sina.com.cn' in href or 'finance.sina' in href:
