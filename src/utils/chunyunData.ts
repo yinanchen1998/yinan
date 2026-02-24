@@ -1602,7 +1602,7 @@ export const data2025: ChunyunDailyData[] = [
 export const data2026: ChunyunDailyData[] = [
   {
     date: '2026-02-22',
-    lunarDate: '正月初五',
+    lunarDate: '正月初六',
     chunyunDay: 21,
     totalFlow: 38035.2,
     railway: null,
@@ -1615,7 +1615,7 @@ export const data2026: ChunyunDailyData[] = [
 
   {
     date: '2026-02-20',
-    lunarDate: '正月初三',
+    lunarDate: '正月初四',
     chunyunDay: 19,
     totalFlow: 35209.0,
     railway: 1500.0,
@@ -1627,7 +1627,7 @@ export const data2026: ChunyunDailyData[] = [
   },
   {
     date: '2026-02-21',
-    lunarDate: '正月初四',
+    lunarDate: '正月初五',
     chunyunDay: 20,
     totalFlow: 35965.1,
     railway: 1718.7,
@@ -1640,7 +1640,7 @@ export const data2026: ChunyunDailyData[] = [
 
   {
     date: '2026-02-19',
-    lunarDate: '正月初二',
+    lunarDate: '正月初三',
     chunyunDay: 18,
     totalFlow: 33941.1,
     railway: null,
@@ -1653,7 +1653,7 @@ export const data2026: ChunyunDailyData[] = [
 
   {
     date: '2026-02-18',
-    lunarDate: '正月初一',
+    lunarDate: '正月初二',
     chunyunDay: 17,
     totalFlow: 32298.8,
     railway: 1080.1,
@@ -1666,7 +1666,7 @@ export const data2026: ChunyunDailyData[] = [
 
   {
     date: '2026-02-17',
-    lunarDate: '除夕',
+    lunarDate: '正月初一',
     chunyunDay: 16,
     totalFlow: 19411.2,
     railway: 693.2,
@@ -1679,7 +1679,7 @@ export const data2026: ChunyunDailyData[] = [
 
   {
     date: '2026-02-16',
-    lunarDate: '腊月廿九',
+    lunarDate: '除夕',
     chunyunDay: 15,
     totalFlow: 19411.2,
     railway: 693.2,
