@@ -1638,7 +1638,6 @@ export const data2026: ChunyunDailyData[] = [
     sourceTitle: '春运2026丨2月21日，全社会跨区域人员流动量完成35965.1万人次',
   },
 
-
   {
     date: '2026-02-19',
     lunarDate: '正月初二',
