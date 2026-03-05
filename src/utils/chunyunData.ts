@@ -1601,6 +1601,19 @@ export const data2025: ChunyunDailyData[] = [
 // 2026年春运数据 - 来自交通运输部官方发布
 export const data2026: ChunyunDailyData[] = [
   {
+    date: '2026-03-04',
+    lunarDate: '正月十五',
+    chunyunDay: 31,
+    totalFlow: 21896.0,
+    railway: null,
+    highway: null,
+    waterway: null,
+    aviation: null,
+    sourceUrl: 'https://k.sina.com.cn/article_2090512390_7c9ab00602003604q.html',
+    sourceTitle: '新浪看点',
+  },
+
+  {
     date: '2026-03-03',
     lunarDate: '正月十四',
     chunyunDay: 30,
